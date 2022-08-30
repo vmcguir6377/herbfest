@@ -1,4 +1,6 @@
 * {
+  height: 100;
+  width: 100;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -311,5 +313,37 @@
   
   
   /* Hero Style End */
+ /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+ @media screen and (max-width: 575px) {
+   .hero-form {
+    width: 100%;
+    font-size: small;
+   }
+   .contact h2 {
+    font-size:x-large;
+   }
+  .section-title primary border {
+    text-align: center;
+  }
  
-  
+   img {
+    width: 85%;
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  li a{
+   font-size: medium;
+    margin-right: 80px;
+    padding-top: -30px;
+    display:contents;
+    margin-bottom: 380px;
+    color: white;
+  }
+  .hero {
+    height: 400px;
+    margin-top: 0px;
+  }
+ 
+
+}
