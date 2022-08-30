@@ -212,7 +212,10 @@
   footer {
     background: #fce138;
     width: 100%;
-    padding: 40px 35px;
+    padding: 20px 0px 0px 20px;
+  }
+  footer h3 {
+    text-align: center;
   }
   footer h2 {
     display: inline;
