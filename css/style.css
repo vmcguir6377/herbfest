@@ -69,6 +69,7 @@
   }
   .section-title {
     font-size: 55px;
+    text-align: center;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
@@ -136,7 +137,7 @@
     padding: 65px;
     float: left;
     width: 65%;
-    background: white;
+    background: green;
   }
   .text-left {
     text-align: left;
@@ -171,11 +172,11 @@
   color: #024e76;
   }
   .contact {
-  text-align: center;
+  text-align: right;
   background: green;
   }
   .secondary-border {
-  border-color: green;
+  border-color: white;
   }
   
   
@@ -244,8 +245,8 @@
   
   .hero-form {
     background-color: #fce138;
-    padding-top: 0px;
-    margin-top: 350px;
+    padding-top: 10px;
+    margin-top: 70px;
     position: center;
     width: 600px;
     color: #024e76;
@@ -253,6 +254,12 @@
   border-style: solid;
     border-width: 3px;
     border-color: #024e76;
+  }
+  .hero-form h4 {
+    text-align: center;
+  }
+  .hero-form text {
+    text-align: center;
   }
   .hero-form {
     border: 3px solid green;
@@ -263,22 +270,24 @@
     color: green;
   
     bottom: 20px;
-    right: 140px;
+    right: 70px;
   }
   
   .hero-form h3 {
     font-size: 24px;
-    margin: 0;
+    text-align: center;
   }
   
   .hero-form p {
+    text-align: center;
     margin: 5px 0 15px 0;
   }
-  
-  .form-input {
+  .form label {
+    text-align: left;
+  }
+  .form {
+    text-align: left;
     border: 1px solid green;
-    display: block;
-    padding: 7px 15px;
     font-size: 16px;
     color: green;
     width: 100%;
@@ -286,7 +295,7 @@
   }
   
   .hero-form label {
-    margin: 0 5px;
+    text-align: left;
   }
   
   .hero-form button {
